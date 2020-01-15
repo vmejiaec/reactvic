@@ -5,10 +5,12 @@ import Saludo from './Saludo';
 import Propiedad from './propiedad';
 
 import Contador from './Contador';
+import CicloVida from './CicloVida';
 
 function App() {
   return (
     <div className="App">
+      <CicloVida/>
       <Contador/>
       <Saludo></Saludo>
       <Propiedad saldo='18'/>
