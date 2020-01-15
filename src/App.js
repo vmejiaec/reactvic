@@ -4,9 +4,12 @@ import './App.css';
 import Saludo from './Saludo';
 import Propiedad from './propiedad';
 
+import Contador from './Contador';
+
 function App() {
   return (
     <div className="App">
+      <Contador/>
       <Saludo></Saludo>
       <Propiedad saldo='18'/>
       <header className="App-header">
